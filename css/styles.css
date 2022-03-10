@@ -90,7 +90,7 @@ a, a:hover {
     align-items: center;
 }
 
-.devweek-btn , .devweek-btn:hover {
+.devweek-btn, .devweek-btn:hover {
     width: 180px;
     height: 40px;
     background-color: var(--color-primary);
@@ -101,4 +101,9 @@ a, a:hover {
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+}
+
+.devweek-FC {
+    padding: 40px 0px;
+    max-width: 480px;
 }
