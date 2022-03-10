@@ -76,15 +76,18 @@ a, a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 0px 20px 0px;
+    padding: 10px 20px 20px 20px;
     background-color: var(--white);
     border-radius: 0px 0px 8px 8px;
+    min-height: 150px;
+    justify-content: space-between;
 }
 
 .devweek-card-desc h3 {
     margin-bottom: 25px;
     font-weight: 700;
     font-size: 14px;
+    align-items: center;
 }
 
 .devweek-btn , .devweek-btn:hover {
