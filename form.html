@@ -23,14 +23,34 @@
         </nav>
     </header>
     <main>
-        <section id="devweek-form">
-            <div class="container devweek-FC">
+        <section id="devweek-form-desc">
+            <div class="devweek-form-card container">
                 <div>
                     <div class="devweek-card">
                         <img src="https://wallpaperaccess.com/full/2790179.jpg" alt="SAO">
-                        <div class="devweek-card-desc">
+                        <div class="devweek-form-desc">
                             <h3>Sword Art Online</h3>
-                            <a class="devweek-btn" href="index.html">Cancelar</a>
+                            <form class="devweek-form">
+                                <div class="form-group devweek-custom-group">
+                                    <label for="email">Informe seu email</label>
+                                    <input class="form-control" type="email" id="email">
+                                </div>
+                                <div class="form-group devweek-custom-group">
+                                    <label for="score">Informe sua avaliação</label>
+                                    <select class="form-control" name="score" id="score">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="devweek-form-btn-container">
+                                    <button class="devweek-btn type="submit">Salvar</button>
+                                    <a class="devweek-btn" href="index.html">Cancelar</a>
+                                </div>
+                            </form>
+
                         </div>
                     </div>
                 </div>
