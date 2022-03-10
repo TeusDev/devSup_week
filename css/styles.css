@@ -2,6 +2,7 @@
 
 :root {
     --bg-gray: #ddd;
+    --text-gray: #4a4a4a;
     --color-primary: #4D41C0;
     --white: #fff;
 }
@@ -55,4 +56,46 @@ a, a:hover {
 
 .devweek-contact-container img {
     margin-right: 10px;
+}
+
+#devweek-CL {
+    padding: 40px 0px;
+}
+
+.devweek-card {
+    width: 360px;
+    height: 400px;
+}
+
+.devweek-card img {
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.devweek-card-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 20px 0px;
+    background-color: var(--white);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.devweek-card-desc h3 {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.devweek-btn , .devweek-btn:hover {
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
 }
